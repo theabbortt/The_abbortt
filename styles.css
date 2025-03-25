@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+}
+
+h2 {
+    color: #f4a261;
+}
+
+a {
+    color: #f4a261;
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #f4a261;
+    color: black;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #e76f51;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10%;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f4a261;
+}
+
+/* Hero Section */
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #1d1d1d, #252525);
+}
+
+.hero-content {
+    text-align: center;
+}
+
+/* Sections */
+section {
+    padding: 80px 10%;
+}
+
+/* Skills */
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background: #f4a261;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Projects */
+.project-list {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.project-card {
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+}
+
+/* Contact */
+.contact-links a {
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background: #000;
+}
